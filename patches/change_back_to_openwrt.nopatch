@@ -3,7 +3,7 @@ index 187a7322ec..200babd0cb 100644
 --- a/include/version.mk
 +++ b/include/version.mk
 @@ -32,7 +32,7 @@ VERSION_REPO:=$(call qstrip,$(CONFIG_VERSION_REPO))
- VERSION_REPO:=$(if $(VERSION_REPO),$(VERSION_REPO),https://downloads.immortalwrt.org/releases/21.02-SNAPSHOT)
+ VERSION_REPO:=$(if $(VERSION_REPO),$(VERSION_REPO),https://downloads.immortalwrt.org/releases/23.05-SNAPSHOT)
  
  VERSION_DIST:=$(call qstrip,$(CONFIG_VERSION_DIST))
 -VERSION_DIST:=$(if $(VERSION_DIST),$(VERSION_DIST),ImmortalWrt)
